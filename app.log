@@ -35564,3 +35564,130 @@
 2024-06-27 18:08:16,403 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
 2024-06-27 18:08:16,403 - INFO - 更新111
 2024-06-27 18:08:16,403 - INFO - []
+2024-06-27 18:08:18,405 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:18,434 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:18,435 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:18,435 - INFO - 更新111
+2024-06-27 18:08:18,435 - INFO - []
+2024-06-27 18:08:19,932 - INFO - token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMTY1OTk0MTg1MjIyMTYyNDMyMSJ9.kKLJQWf-hpYMhQIt7XzRBNQfQkaDsvRJDQnQ9WfUjNA
+2024-06-27 18:08:19,932 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:19,965 - DEBUG - http://easyoa.fun:8081 "POST /api/user/info HTTP/11" 200 None
+2024-06-27 18:08:19,966 - INFO - 用户信息：
+2024-06-27 18:08:19,966 - INFO - 登录成功
+2024-06-27 18:08:19,967 - DEBUG - Starting new HTTP connection (1): easyoa.fun:9090
+2024-06-27 18:08:19,970 - DEBUG - http://easyoa.fun:9090 "GET /aistudio/QQ%E5%9B%BE%E7%89%8720231221133341703136831169.jpg HTTP/11" 200 39627
+2024-06-27 18:08:20,018 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:20,041 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device%20polling HTTP/11" 200 None
+2024-06-27 18:08:20,042 - INFO - {"code":1,"msg":null,"data":[{"id":"ai_fuwuqi_1","name":"AI服务器里的","description":"AI服务器里的","status":1}],"map":{}}
+2024-06-27 18:08:20,437 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:20,477 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:20,478 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:20,478 - INFO - 更新111
+2024-06-27 18:08:20,478 - INFO - []
+2024-06-27 18:08:22,478 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:22,508 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:22,508 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:22,509 - INFO - 更新111
+2024-06-27 18:08:22,509 - INFO - []
+2024-06-27 18:08:24,510 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:24,550 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:24,550 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:24,551 - INFO - 更新111
+2024-06-27 18:08:24,551 - INFO - []
+2024-06-27 18:08:25,043 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:25,061 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device%20polling HTTP/11" 200 None
+2024-06-27 18:08:25,061 - INFO - {"code":1,"msg":null,"data":[{"id":"ai_fuwuqi_1","name":"AI服务器里的","description":"AI服务器里的","status":1}],"map":{}}
+2024-06-27 18:08:26,552 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:26,573 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:26,574 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:26,574 - INFO - 更新111
+2024-06-27 18:08:26,574 - INFO - []
+2024-06-27 18:08:28,576 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:28,615 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:28,616 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:28,616 - INFO - 更新111
+2024-06-27 18:08:28,616 - INFO - []
+2024-06-27 18:08:30,063 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:30,091 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device%20polling HTTP/11" 200 None
+2024-06-27 18:08:30,091 - INFO - {"code":1,"msg":null,"data":[{"id":"ai_fuwuqi_1","name":"AI服务器里的","description":"AI服务器里的","status":1}],"map":{}}
+2024-06-27 18:08:30,618 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:30,647 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:30,647 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:30,648 - INFO - 更新111
+2024-06-27 18:08:30,648 - INFO - []
+2024-06-27 18:08:32,650 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:32,675 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:32,675 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:32,675 - INFO - 更新111
+2024-06-27 18:08:32,675 - INFO - []
+2024-06-27 18:08:34,677 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:34,708 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:34,708 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:34,708 - INFO - 更新111
+2024-06-27 18:08:34,708 - INFO - []
+2024-06-27 18:08:34,967 - INFO - token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMTY1OTk0MTg1MjIyMTYyNDMyMSJ9.kKLJQWf-hpYMhQIt7XzRBNQfQkaDsvRJDQnQ9WfUjNA
+2024-06-27 18:08:34,968 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:34,999 - DEBUG - http://easyoa.fun:8081 "POST /api/user/info HTTP/11" 200 None
+2024-06-27 18:08:35,001 - INFO - 用户信息：
+2024-06-27 18:08:35,001 - INFO - 登录成功
+2024-06-27 18:08:35,003 - DEBUG - Starting new HTTP connection (1): easyoa.fun:9090
+2024-06-27 18:08:35,007 - DEBUG - http://easyoa.fun:9090 "GET /aistudio/QQ%E5%9B%BE%E7%89%8720231221133341703136831169.jpg HTTP/11" 200 39627
+2024-06-27 18:08:35,092 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:35,125 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device%20polling HTTP/11" 200 None
+2024-06-27 18:08:35,125 - INFO - {"code":1,"msg":null,"data":[{"id":"ai_fuwuqi_1","name":"AI服务器里的","description":"AI服务器里的","status":1}],"map":{}}
+2024-06-27 18:08:36,709 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:36,741 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:36,741 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:36,741 - INFO - 更新111
+2024-06-27 18:08:36,741 - INFO - []
+2024-06-27 18:08:38,742 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:38,767 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:38,767 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:38,767 - INFO - 更新111
+2024-06-27 18:08:38,767 - INFO - []
+2024-06-27 18:08:40,126 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:40,146 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device%20polling HTTP/11" 200 None
+2024-06-27 18:08:40,147 - INFO - {"code":1,"msg":null,"data":[{"id":"ai_fuwuqi_1","name":"AI服务器里的","description":"AI服务器里的","status":1}],"map":{}}
+2024-06-27 18:08:40,768 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:40,803 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:40,804 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:40,804 - INFO - 更新111
+2024-06-27 18:08:40,804 - INFO - []
+2024-06-27 18:08:42,805 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:42,823 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:42,823 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:42,824 - INFO - 更新111
+2024-06-27 18:08:42,824 - INFO - []
+2024-06-27 18:08:44,824 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:44,858 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:44,858 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:44,858 - INFO - 更新111
+2024-06-27 18:08:44,858 - INFO - []
+2024-06-27 18:08:45,148 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:45,176 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device%20polling HTTP/11" 200 None
+2024-06-27 18:08:45,176 - INFO - {"code":1,"msg":null,"data":[{"id":"ai_fuwuqi_1","name":"AI服务器里的","description":"AI服务器里的","status":1}],"map":{}}
+2024-06-27 18:08:46,859 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:46,886 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:46,886 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:46,887 - INFO - 更新111
+2024-06-27 18:08:46,887 - INFO - []
+2024-06-27 18:08:48,887 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:48,929 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:48,929 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:48,929 - INFO - 更新111
+2024-06-27 18:08:48,929 - INFO - []
+2024-06-27 18:08:50,002 - INFO - token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImlkIjoiMTY1OTk0MTg1MjIyMTYyNDMyMSJ9.kKLJQWf-hpYMhQIt7XzRBNQfQkaDsvRJDQnQ9WfUjNA
+2024-06-27 18:08:50,003 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:50,035 - DEBUG - http://easyoa.fun:8081 "POST /api/user/info HTTP/11" 200 None
+2024-06-27 18:08:50,036 - INFO - 用户信息：
+2024-06-27 18:08:50,037 - INFO - 登录成功
+2024-06-27 18:08:50,038 - DEBUG - Starting new HTTP connection (1): easyoa.fun:9090
+2024-06-27 18:08:50,043 - DEBUG - http://easyoa.fun:9090 "GET /aistudio/QQ%E5%9B%BE%E7%89%8720231221133341703136831169.jpg HTTP/11" 200 39627
+2024-06-27 18:08:50,177 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:50,196 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device%20polling HTTP/11" 200 None
+2024-06-27 18:08:50,197 - INFO - {"code":1,"msg":null,"data":[{"id":"ai_fuwuqi_1","name":"AI服务器里的","description":"AI服务器里的","status":1}],"map":{}}
+2024-06-27 18:08:50,931 - DEBUG - Starting new HTTP connection (1): easyoa.fun:8081
+2024-06-27 18:08:50,948 - DEBUG - http://easyoa.fun:8081 "GET /api/printer/print_device_info%20polling/ai_fuwuqi_1 HTTP/11" 200 None
+2024-06-27 18:08:50,948 - INFO - {"code":1,"msg":null,"data":{"id":"ai_fuwuqi_1","printName":"ai_fuwuqi_1","printDescription":"AI服务器里的","statusTypeMessage":"空闲","listNums":0,"statusType":1,"printJobs":[]},"map":{}}
+2024-06-27 18:08:50,948 - INFO - 更新111
+2024-06-27 18:08:50,948 - INFO - []

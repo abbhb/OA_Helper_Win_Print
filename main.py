@@ -3,9 +3,11 @@ import sys
 import os
 import urllib
 from collections import deque
+from logging.handlers import TimedRotatingFileHandler
 from time import sleep
 from typing import List
 import logging
+import winreg as reg
 
 import portalocker
 from PyQt5 import QtWidgets
@@ -30,11 +32,50 @@ from urllib.parse import urlparse, parse_qs
 import shelve
 
 from print_device import PrintDevice, DeviceSelectionWidget, PrintDeviceStatus, PrintJob, PrintDialog, PleaseLoginDialog
-
+# 创建 logs 文件夹，如果不存在
+if not os.path.exists('logs'):
+    os.makedirs('logs')
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
 
 # 设置日志记录
-logging.basicConfig(filename='app.log', level=logging.DEBUG,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+# 创建按小时滚动的处理器
+handler = TimedRotatingFileHandler(
+    'logs/log', when='H', interval=1, backupCount=0, encoding='utf-8'
+)
+handler.suffix = "%Y-%m-%d_%H.log"
+handler.setLevel(logging.DEBUG)
+
+# 设置日志格式
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+# 添加处理器到日志记录器
+logger.addHandler(handler)
+
+def is_startup_enabled(app_name):
+    """检查程序是否设置为开机自启"""
+    try:
+        key = reg.OpenKey(reg.HKEY_CURRENT_USER, r"Software\Microsoft\Windows\CurrentVersion\Run", 0, reg.KEY_READ)
+        value, _ = reg.QueryValueEx(key, app_name)
+        reg.CloseKey(key)
+        return value == sys.executable
+    except FileNotFoundError:
+        return False
+    except WindowsError:
+        return False
+
+def add_to_startup(app_name, app_path):
+    """将程序添加到开机自启"""
+    try:
+        key = reg.OpenKey(reg.HKEY_CURRENT_USER, r"Software\Microsoft\Windows\CurrentVersion\Run", 0, reg.KEY_SET_VALUE)
+        reg.SetValueEx(key, app_name, 0, reg.REG_SZ, app_path)
+        reg.CloseKey(key)
+        logging.info(f"{app_name} has been added to startup.")
+    except WindowsError as e:
+        logging.info(f"Failed to add to startup: {e}")
+
+
 class UserInfo(object):
     username:str
     name:str
@@ -278,10 +319,11 @@ class MainWindow(QMainWindow):
     def check_token(self):
         while True:
             if self.token == None:
-                sleep(3)
+                # 为空每秒检查一次
+                sleep(1)
             else:
                 self.handle_login_token(self.token)
-                sleep(15)
+                sleep(10)
     def update_ui_with_selected_device(self,device):
         # 提供给选择器修改设备
         self.device_selected = device
@@ -292,7 +334,7 @@ class MainWindow(QMainWindow):
         db.close()
     def check_device_list(self):
         while True:
-            sleep(5)
+            sleep(3)
             # 你的API的URL
             url = 'http://easyoa.fun:8081/api/printer/print_device%20polling'
 
@@ -328,7 +370,7 @@ class MainWindow(QMainWindow):
     def check_select_device(self):
         # 独立线程
         while True:
-            sleep(2)
+            sleep(1.5)
             if self.device_selected==None:
                 continue
             # 你的API的URL
@@ -423,7 +465,7 @@ class MainWindow(QMainWindow):
             self.show()
 
     def open_login_webpage(self):
-        webbrowser.open('http://easyoa.fun:8081/#/client_oauth')
+        webbrowser.open('http://easyoa.fun:8081/#/login?redirect=ClientOauth')
 
     def attempt_login(self, username, password):
         # Replace with your login logic
@@ -568,6 +610,13 @@ class MainWindow(QMainWindow):
 
 
 def main():
+    app_name = "EasyOA"  # 你可以根据需要更改应用程序名称
+    app_path = os.path.abspath(sys.argv[0])
+
+    if not is_startup_enabled(app_name):
+        add_to_startup(app_name, app_path)
+    else:
+        logging.info(f"{app_name} is already set to run at startup.")
     app = QApplication(sys.argv)
     main_window = MainWindow()
     # main_window.check_login()

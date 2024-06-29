@@ -50,6 +50,7 @@ missing module named 'pkg_resources.extern.jaraco' - imported by pkg_resources (
 missing module named vms_lib - imported by platform (delayed, optional)
 missing module named java - imported by platform (delayed)
 missing module named _winreg - imported by platform (delayed, optional)
+missing module named PIL._imagingagg - imported by PIL (delayed, conditional, optional), PIL.ImageDraw (delayed, conditional, optional)
 missing module named olefile - imported by PIL.FpxImagePlugin (top-level), PIL.MicImagePlugin (top-level)
 missing module named numpy.VisibleDeprecationWarning - imported by numpy (conditional), scipy._lib._util (conditional)
 missing module named numpy.ComplexWarning - imported by numpy (conditional), scipy._lib._util (conditional)
