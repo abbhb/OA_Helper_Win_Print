@@ -277,7 +277,7 @@ class PrintDialog(QDialog):
         button_box = QDialogButtonBox(QDialogButtonBox.Ok)
         button_box.accepted.connect(self.large_image_window.accept)
         layout.addWidget(button_box)
-        self.large_image_window.setLayout(layout)
+        self.large_image_window.s1etLayout(layout)
         self.large_image_window.exec_()
     def onButtonClicked1(self, button):
         # 获取被点击的按钮的ID
